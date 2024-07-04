@@ -20,7 +20,7 @@ function changeSlide(n) {
 
 function autoSlide() {
     changeSlide(1);
-    setTimeout(autoSlide, 4000); // Change slide every 3 seconds
+    setTimeout(autoSlide, 5000); // Change slide every 3 seconds
 }
 
 // Swipe functionality
@@ -48,7 +48,7 @@ function handleTouchMove(event) {
 
 document.addEventListener("DOMContentLoaded", () => {
     showSlide(slideIndex);
-    setTimeout(autoSlide, 3000); // Start the automatic slide change
+    setTimeout(autoSlide, 5000); // Start the automatic slide change
 
     // Add swipe event listeners
     let container = document.querySelector(".slideshow-container");
